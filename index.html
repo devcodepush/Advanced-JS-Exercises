@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced JS Exercises</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Advanced JS Exercises</h1>
+    <h3>Exercise - Adv JS  1 - Arrays in depth</h3>
+    <ul>
+        <li>Write a function called capitalize() that takes a string and uses .map to return the same string in all caps. 
+            ex: capitalize('whoop') => 'WHOOP' 
+            ex: capitalize('oh hey gurl') => "OH HEY GURL" </li>
+        <li>Now write a new function called swapCase() that takes a string of words and uses .map and function capitalize(string) to return a string where every other word is in all caps. 
+        </li>
+        <li>Write a function shiftLetters() that takes a string and uses .map to return an encoded string with each letter shifted down the alphabet by one. Hint: Use Look up the JS functions String.fromCharCode() and String.CharCodeAt() and see if you can use Ascii code to acomplish this. 
+        </li>
+        <li>Write a function counterLetters() that takes a string and returns an object representing the character count for each letter. Use .reduce to build this object. 
+            ex: countLetters('abbcccddddeeeee') => {a:1, b:2, c:3, d:4, e:5}</li>
+        <li>Write a function isPresent() that takes a string and a target, and returns true or false if the target is present in the string. Use .reduce to acomplish this. 
+            ex: isPresent('abcd', 'b')  => true 
+            ex. isPresent('efghi', 'a') => false</li>
+    </ul>
+    <h3>Exercises - Advanced JS 4 - spread/rest, destructuring</h3>
+    <ul>
+        <li>Write a function called squareAndSum that takes in any number of arguments, squares them, then sums all of the squares.
+        </li>
+        <li>Write a function called combineTwoArrays that takes in two arrays as arguments, and returns a single array that combines both (using the spread operator).
+        </li>
+        <li>Write a function called onlyUniques that can take in any number of arguments, and returns an array of only the unique arguments
+        </li>
+    </ul>
+    <script src="main.js"></script>
+</body>
+</html>
